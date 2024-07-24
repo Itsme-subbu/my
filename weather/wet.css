@@ -1,0 +1,146 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("violet.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    backdrop-filter: blur(20px);
+    width: 350px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+   
+    border: 2px solid hsl(283, 82%, 85%);
+}
+.main .search {
+    position: relative;
+}
+.main .search input{
+    background-color: transparent;
+    border: 2px solid  hsl(283, 82%, 85%);
+    width: 90%;
+    border-radius: 7px;
+    height: 40px;
+    text-align: left;
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+    padding-left: 39px;
+}
+.main .search input::placeholder{
+    color: white;
+    text-transform: capitalize;
+}
+.main .search span{
+    position: absolute;
+    top: 35%;
+    color: white;
+    font-size: 20px;
+}
+.main .search .a1{
+    left: 10%;
+}
+.main .search .a2{
+    right: 10%;
+}
+.main img{
+    border-radius: 50%;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+}
+.main .content{
+    padding-bottom: 20px;
+}
+.main .content p{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    text-transform: capitalize;
+}
+.main .content h3{
+    font-size: 20px;
+    color: white;
+}
+.main .extra{
+    position: relative;
+    background-color: transparent;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+}
+.main .extra .hum .b1{
+    font-size: 40px;
+    
+}
+.main .extra .hum .humidity{
+    padding-left: 10px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+   
+}
+.main .extra .hum .humidity p{
+    font-size: 15px;
+    text-align: center;
+}
+.main .extra .hum .humidity h4{
+    font-size: 15px;
+    text-align: center;
+}
+.main .extra .spe .b2{
+    font-size: 40px;
+    position: absolute;
+    top: 17%;
+    right: 35%;
+}
+.main .extra .spe .speed{
+    padding-left: 10px;
+    position: absolute;
+    top: 25%;
+    right: 7%;
+    
+}
+.main .extra .spe .speed p{
+    font-size: 15px;
+    text-align: center;
+}
+.main .extra .hum .humidity h4{
+    font-size: 15px;
+    text-align: center;
+}
+.main button{
+    width: 100%;
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid hsl(283, 82%, 85%);
+}
+.main button:hover{
+    box-shadow: 0 0 10px hsl(227, 80%, 48%);
+    background-color:hsl(227, 80%, 48%) ;
+    color: hsl(285, 89%, 14%);
+    font-weight: bold;
+    border: 2px solid hsl(227, 80%, 48%);
+}
